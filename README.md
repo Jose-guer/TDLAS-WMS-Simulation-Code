@@ -1,5 +1,5 @@
 # TDLAS-WMS-Simulation-Code
-MATALB code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data for are also included. 
+MATALB code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
 
 ## Release date
 The code is still being prepared and documented as of Oct. 29 - 2025, will be made publically available soon!
