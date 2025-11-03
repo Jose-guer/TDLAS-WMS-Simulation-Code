@@ -2,7 +2,7 @@
 MATALB code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
 
 ## Release date
-The code is still being prepared and documented as of Oct. 29 - 2025, will be made publically available soon!
+The code is still being prepared and documented as of Nov. 3rd - 2025, and will be made publically available soon!
 
 ## System requirements
 This code runs on MATALB in any operating system. The signal processing toolbox is required.
@@ -11,7 +11,7 @@ This code runs on MATALB in any operating system. The signal processing toolbox 
 
 The code is organized into the following folders:
   - Examples. - This folder contains the main simulation scripts.
-  - Functions. - This folder contains the custom functions used in the examples and are further divided into scripts used to simulated the molecular absorption spectra, and those used to simulate WMS harmonics, extracted WMS harmonics from experiemntal      data, and code used to characterize modulation depth using an FPI.
+  - Functions. - This folder contains the custom functions used in the examples and are further divided into scripts used to simulated the molecular absorption spectra, and those used to simulate WMS            harmonics, including a digital lock-in amplifier.
   - Hitran Data. - This folder contains hitran data for various molecules of interest to combustion diagnostics (H2O, CO, CO2, NO, etc.) and is formated to be used with the provided simulation scripts.
 
 ## Please cite this article when using code provided here in your work
