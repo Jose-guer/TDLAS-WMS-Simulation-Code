@@ -5,7 +5,7 @@ MATALB code for the simulation of molecular absorption spectra using the HITRAN 
 The code is still being prepared and documented as of Oct. 29 - 2025, will be made publically available soon!
 
 ## System requirements
-This code runs on MATALB in any operating system. 
+This code runs on MATALB in any operating system. The signal processing toolbox is required.
 
 ## Description of Code
 
