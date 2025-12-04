@@ -1,11 +1,11 @@
 # TDLAS-WMS-Simulation-Code
-MATALB code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
+MATALB and Python code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
 
 ## Release date
-The code is still being prepared and documented as of Nov. 3rd - 2025, and will be made publically available soon!
+The code is still being prepared and documented as of Dec. 4th - 2025, and will be made publically available soon!
 
 ## System requirements
-This code runs on MATALB in any operating system. The signal processing toolbox is required.
+The MATALB implementation of the code requires the signal processing toolbox. 
 
 ## Description of Code
 
@@ -15,7 +15,7 @@ The code is organized into the following folders:
   - Hitran Data. - This folder contains hitran data for various molecules of interest to combustion diagnostics (H2O, CO, CO2, NO, etc.) and is formated to be used with the provided simulation scripts.
 
 ## Please cite this article when using code provided here in your work
-[1] J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. Applied Spectroscopy Reviews, 2025.
+[1] J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. Applied Spectroscopy Reviews, 2026 (under review).
 
 ## Reference
-[1] J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. Applied Spectroscopy Reviews, 2025.
+[1] J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. Applied Spectroscopy Reviews, 2026 (under review).
