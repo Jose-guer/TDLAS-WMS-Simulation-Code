@@ -15,7 +15,9 @@ The code is organized into the following folders:
   - Hitran Data. - This folder contains hitran data for various molecules of interest to combustion diagnostics (H2O, CO, CO2, NO, etc.) and is formated to be used with the provided simulation scripts.
 
 ## Please cite this article when using code provided here in your work
-J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. arXiv:submit/7097655 (2025).
+J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. arXiv:2512.18201 (2025) 
+https://doi.org/10.48550/arXiv.2512.18201
 
 ## Reference
-[1] J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. arXiv:submit/7097655 (2025).
+[1] J. I. Guerrero, M. Gamba. A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics. arXiv:2512.18201 (2025) 
+https://doi.org/10.48550/arXiv.2512.18201
