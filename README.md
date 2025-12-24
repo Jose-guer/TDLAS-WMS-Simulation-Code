@@ -2,7 +2,7 @@
 MATALB and Python code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
 
 ## Release date
-The code is still being prepared and documented as of Dec. 4th - 2025, and will be made publically available soon!
+The code is still being prepared and documented as of Dec. 23th - 2025, and will be made publically available soon!
 
 ## System requirements
 The MATALB implementation of the code requires the signal processing toolbox. 
