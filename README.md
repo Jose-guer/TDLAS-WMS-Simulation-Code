@@ -1,8 +1,8 @@
 # TDLAS-WMS-Simulation-Code
-MATALB and Python code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases is made available here as supplementary material to our review paper cited below [[1](https://doi.org/10.48550/arXiv.2512.18201)]. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
+MATLAB and Python code for the simulation of molecular absorption spectra using the HITRAN and HITEMP databases is made available here as supplementary material to our review paper cited below [[1](https://doi.org/10.48550/arXiv.2512.18201)]. Code for the simulation of WMS harmonics using the calibration-free WMS model, and laser characterization examples with data are also included. 
 
 ## System requirements
-The MATALB implementation of the code requires the signal processing toolbox. 
+The MATLAB implementation of the code requires the signal processing toolbox. 
 
 ## Description of Code
 The code is organized into the following folders:
