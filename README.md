@@ -11,6 +11,8 @@ The code is organized into the following folders:
   - Hitran Data. - This folder contains hitran data for various molecules of interest to combustion diagnostics (H2O, CO, CO2, NO, etc.) and is formated to be used with the provided simulation scripts.
   - HiTemp Data. - This folder contains mid-IR data for CO, CO2, and H2O.
 
+The HiTemp Data is uploaded as a separate zip folder and needs to be copied and pasted into the main MATLAB and Python folders.
+
 ## Please cite this article when using code provided here in your work
 Guerrero, Jose, and Mirko Gamba. "A Review of Theory and Practical Considerations of Tunable Diode Laser Absorption Spectroscopy Diagnostics." arXiv:2512.18201 (2025) 
 https://doi.org/10.48550/arXiv.2512.18201
