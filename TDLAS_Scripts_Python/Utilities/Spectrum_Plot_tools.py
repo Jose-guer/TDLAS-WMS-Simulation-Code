@@ -520,39 +520,34 @@ def complexErrorFunction(x, y):
 
 def multi_line_voigt_fit(vo, A, wL, T, wavenum, abs_meas):
     """
-    Reconstructs the absorption spectrum from multiple Voigt profiles and returns the residual.
-    vo       : array of line centers
-    A        : areas (amplitudes) for each line
-    wL       : collisional HWHM (scalar or array matching vo)
-    T        : temperature [K]
-    wavenum  : wavenumber vector
-    abs_meas : measured absorption spectrum (same length as wavenum)
+    Reconstructs the absorption spectrum using the input parameters and
+    returns the residual.
+
+    vo       : vector of line centers
+    A        : areas of Voigt profiles for lines in vo
+    wL       : collisional broadening HWHM of lines
+    T        : temperature
+    wavenum  : wavenumber vector for measured absorption spectrum
+    abs_meas : measured absorption spectrum
     """
-    vo = np.asarray(vo, dtype=np.float64).ravel()
-    A = np.asarray(A, dtype=np.float64).ravel()
-    wavenum = np.asarray(wavenum, dtype=np.float64).ravel()
-    abs_meas = np.asarray(abs_meas, dtype=np.float64).ravel()
-    wL_arr = np.asarray(wL, dtype=np.float64).ravel()
 
     MW_rad = 18.01528  # H2O
-    wG = 3.58115e-7 * vo * np.sqrt(T / MW_rad)
+    wG = (3.58115e-7) * vo * np.sqrt(T / MW_rad)
 
-    N = wavenum.size
-    M = vo.size
-    VP = np.zeros((N, M), dtype=np.float64)
+    VP = np.zeros((len(wavenum), len(vo)))
 
-    for j in range(M):
-        wl_j = float(wL_arr[0] if wL_arr.size == 1 else wL_arr[j])
-        VP[:, j] = Voigt(wavenum, vo[j], wG[j], wl_j)
+    for j in range(len(vo)):
+        VP[:, j] = Voigt(wavenum, vo[j], wG[j], wL[j])
 
-    abs_cols = VP * A  # broadcast multiply each column by A[j]
+    abs_rec = A * VP
 
-    if M == 1:
-        abs_rec = abs_cols[:, 0]
+    if len(vo) == 1:
+        abs_rec = abs_rec[:, 0]
     else:
-        abs_rec = abs_cols.sum(axis=1)
+        abs_rec = np.sum(abs_rec, axis=1)
 
     Resid = abs_meas - abs_rec
+
     return Resid
 
 ############################################################################
